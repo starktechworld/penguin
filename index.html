@@ -170,29 +170,35 @@
             width:100px;
             height:100px;
             }   
+
             .main-div {
                 background: rgba(184, 222, 34, 0.67);
                 border: 2px solid rgb(1, 29, 25);
                 border-radius: 5px;
-                box-shadow: 10px 5px 3px 2px grey;
                 font-family: arial, cursive;
-                margin: auto;
-                padding: 5px 10px 10px 10px;
-/*                max-width: 800px;*/
-                -webkit-box-shadow: 10px 5px 3px 2px grey;
-                box-sizing: border-box;
+                /*box-sizing: border-box;
                 position: relative;
                 margin-left: auto;
                 margin-right: auto;
                 padding-left: 0.5rem;
                 padding-right: 0.5rem;
-                width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+                width: 90%; /* The width is 100%, when the viewport is 800px or smaller */
+                margin: 0 auto;*/
             }
-            @media (min-width: 200px) {
+            @media (min-width: 300px) {
             .main-div {
-                color: red;
-                max-width: 800px;
-
+                    margin-left: 200px;
+                    word-wrap: break-word;
+                    max-width: 2000px;
+                    text-align: center;
+                }
+            }
+            @media (min-width: 300px) {
+            h2 {
+                    margin-left: 200px;
+                    word-wrap: break-word;
+                    max-width: 2000px;
+                    text-align: center;
                 }
             }
         </style>
